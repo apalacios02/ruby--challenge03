@@ -3,7 +3,7 @@
 load 'ar.rb'
 
 # Find the product you want to delete by its attributes (for example, by name)
-product_to_delete = Product.find_by(name: "Invalid Product")
+product_to_delete = Product.find_by(name: "Product 2")
 
 # Check if the product exists before attempting to delete it
 if product_to_delete
