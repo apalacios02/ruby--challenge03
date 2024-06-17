@@ -2,10 +2,10 @@
 
 load 'ar.rb'
 
-# Configure your database connection
+# My database connection
 ActiveRecord::Base.establish_connection(
   adapter: 'sqlite3',
-  database: '/workspaces/challenge03/db/development.sqlite3' # Adjust the database path
+  database: '/workspaces/challenge03/db/development.sqlite3' # The database path
 )
 
 # Create three new products using different ways to create AR objects
